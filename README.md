@@ -3,7 +3,7 @@ Demos on provisioning AWS res
 
 **Table of Contents**
 - [1.1. Terraform-SetUp](#11-Terraform-Setup)
-- [1.2. Cloud-Computing-Fundamentals](#12-cloud-computing-fundamentals)
+- [1.2. Terraform-101](#12-Terraform-101)
 
 
 
@@ -34,5 +34,7 @@ Demos on provisioning AWS res
    aws configure
    ```
    - Using HashiCorp Vault
+   - 
+## 1.2 Terraform 101
 
    
