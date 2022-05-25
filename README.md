@@ -1,6 +1,13 @@
 # Provisioning AWS resources Terraform
 Demos on provisioning AWS res
 
+**Table of Contents**
+- [1.1. Terraform-SetUp](#11-Terraform-Setup)
+- [1.2. Cloud-Computing-Fundamentals](#12-cloud-computing-fundamentals)
+
+
+
+## 1.1 Terraform Setup
 1. Install Terraform & verfiy
    - On Windows
    ```
@@ -18,14 +25,14 @@ Demos on provisioning AWS res
 3. Create an IAM user with programmatic access, attach existing Policies, add permissions AdministratorAccess
 4. Keep the Access Key ID and Secret Access Key extremely safe.
    - Use an env variables
-     ```
-     export AWS_ACCESS_KEY_ID=aaaaaabbbbbbcccc # in linux
-     setx  AWS_ACCESS_KEY_ID=aaaaaabbbbbbcccc # in windows
-     ```
+   ```
+   export AWS_ACCESS_KEY_ID=aaaaaabbbbbbcccc # in linux
+   setx  AWS_ACCESS_KEY_ID=aaaaaabbbbbbcccc # in windows
+   ```
    - AWS CLI
-     ```
-     aws configure
-     ```
+   ```
+   aws configure
+   ```
    - Using HashiCorp Vault
 
    
