@@ -73,3 +73,4 @@ Confirm
 - Don't delete the state file
 
 ### Variables
+[main.tf](02-variables/main.tf)
