@@ -73,4 +73,3 @@ Confirm
 - Don't delete the state file
 
 ### Variables
-
