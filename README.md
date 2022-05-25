@@ -62,4 +62,4 @@ terraform apply
 terraform destroy
 ```
 
-terraform plan
+
