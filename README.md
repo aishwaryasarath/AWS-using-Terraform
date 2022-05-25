@@ -57,6 +57,7 @@ terraform apply
 3. Confirm that it is created
 <img width="883" alt="image" src="https://user-images.githubusercontent.com/49971693/170300494-ad92df6f-58f8-48fa-9c69-0cc5e56a28ab.png">
 <img width="525" alt="image" src="https://user-images.githubusercontent.com/49971693/170300546-7bea1496-7143-4bcb-bdd2-73f8e4e16765.png">
+
 4. Delete the VPC
 ```
 terraform destroy
