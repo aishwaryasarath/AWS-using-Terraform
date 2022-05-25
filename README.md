@@ -77,5 +77,6 @@ Confirm
 
 ### EC2
 [EC2 demo](03-ec2/main.tf)
+
 [EIP demo](04-eip/main.tf)
 
