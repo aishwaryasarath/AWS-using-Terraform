@@ -80,3 +80,6 @@ Confirm
 
 [EIP demo](04-eip/main.tf)
 
+[Security Group Demo](05-sg/main.tf)
+
+[Dynamic Blocks Demo](06-dynamic-block/main.tf)
