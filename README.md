@@ -1,4 +1,4 @@
-# AWS-using-Terraform
+# Provisioning AWS resources Terraform
 Demos on provisioning AWS res
 
 1. Install Terraform & verfiy
