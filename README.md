@@ -82,4 +82,4 @@ Confirm
 
 [Security Group Demo](05-sg/main.tf)
 
-[Dynamic Blocks Demo](06-dynamic-block/main.tf)
+[Dynamic Blocks Demo](06-dynamic-blocks/main.tf)
