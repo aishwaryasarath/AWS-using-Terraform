@@ -1,4 +1,4 @@
-# Provisioning AWS resources Terraform
+# Provisioning AWS resources using Terraform
 Demos on provisioning AWS res
 
 **Table of Contents**
@@ -37,4 +37,29 @@ Demos on provisioning AWS res
    - 
 ## 1.2 Terraform 101
 
-   
+1. Create a simple vpc resource for AWS using the below code and save it as main.tf
+```
+provider "aws" {
+    region = "us-east-1"
+}
+
+resource "aws_vpc" "myvpc" {
+    cidr_block = "10.0.0.0/16"
+}
+```
+
+2. Run terraform init, terraform plan & terraform apply
+```
+terraform init
+terraform plan
+terraform apply
+```
+3. Confirm that it is created
+<img width="883" alt="image" src="https://user-images.githubusercontent.com/49971693/170300494-ad92df6f-58f8-48fa-9c69-0cc5e56a28ab.png">
+<img width="525" alt="image" src="https://user-images.githubusercontent.com/49971693/170300546-7bea1496-7143-4bcb-bdd2-73f8e4e16765.png">
+4. Delete the VPC
+```
+terraform destroy
+```
+
+terraform plan
