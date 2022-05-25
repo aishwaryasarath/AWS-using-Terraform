@@ -63,4 +63,9 @@ terraform apply
 terraform destroy
 ```
 
+Confirm
+<img width="309" alt="image" src="https://user-images.githubusercontent.com/49971693/170300986-f8eff18a-10ed-44aa-a045-d6009caa646c.png">
+
+
+
 
