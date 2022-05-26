@@ -13,6 +13,7 @@ Demos on provisioning AWS res
 - [1.9. Count](#19-Count)
 - [1.10 Multiple Environments using multiple variable files](#110-Multiple-environments-using-multiple-variable-files)
 - [1.11 Import](#111-Import)
+- [1.12 Data Sources](#112-Data-Sources)
 
 ## 1.1 Terraform Setup
 1. Install Terraform & verfiy
@@ -141,3 +142,5 @@ terraform import aws_vpc.myvpc2 vpcid_from_console
 ```
 - On terraform destroy, it will show that it deleted 2 resources.
 
+## 1.12 Data Sources
+![image](https://user-images.githubusercontent.com/49971693/170597270-fef8b647-9eaa-4264-991b-5c7b0bd594d0.png)
