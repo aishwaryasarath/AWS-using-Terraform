@@ -83,3 +83,7 @@ Confirm
 [Security Group Demo](05-sg/main.tf)
 
 [Dynamic Blocks Demo](06-dynamic-blocks/main.tf)
+
+### Modules
+
+[Module-demo](07-module)
