@@ -81,19 +81,15 @@ Confirm
 [Variables-demo](02-variables)
 
 ## 1.3 EC2
-[EC2 demo](03-ec2)
-
-[EIP demo](04-eip)
-
-[Security Group Demo](05-sg)
-
-[Dynamic Blocks Demo](06-dynamic-blocks)
+- [EC2 demo](03-ec2)
+- [EIP demo](04-eip)
+- [Security Group Demo](05-sg)
+- [Dynamic Blocks Demo](06-dynamic-blocks)
 
 ## 1.4 Modules
 
-[Module-demo](07-module)
-
-[Module Outputs](08-module-outputs)
+- [Module-demo](07-module)
+- [Module Outputs](08-module-outputs)
 
 ## 1.5 IAM
 - Create an IAM policy on the AWS console and copy the JSON.
@@ -109,6 +105,5 @@ Confirm
 [Dependencies Demo](12-dependencies)
 
 ## 1.9 Count
-[Count simple demo](13-count/simple)
-
-[Count Advanced demo](13-count/advanced)
+- [Count simple demo](13-count/simple)
+- [Count Advanced demo](13-count/advanced)
