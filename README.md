@@ -12,6 +12,7 @@ Demos on provisioning AWS res
 - [1.8. Dependencies](#18-Dependencies)
 - [1.9. Count](#19-Count)
 - [1.10 Multiple Environments using multiple variable files](#110-Multiple-environments-using-multiple-variable-files)
+- [1.11 Import](#111-Import)
 
 ## 1.1 Terraform Setup
 1. Install Terraform & verfiy
@@ -115,3 +116,28 @@ Confirm
 terraform plan -var-file=test.tfvars
 terraform plan -var-file=prod.tfvars
 ```
+
+## 1.11 Import
+```
+provider "aws" {
+    region = "us-east-1"
+}
+
+resource "aws_vpc" "myvpc" {
+    cidr_block = "10.0.0.0/16"
+}
+```
+```
+terraform apply
+```
+- create a vpc on console with the cidr_block = "192.168.0.0/24" and also add the below code snippet
+```
+resource "aws_vpc" "myvpc2" {
+    cidr_block = "192.168.0.0/24"
+}
+```
+```
+terraform import aws_vpc.myvpc2 vpcid_from_console
+```
+- On terraform destroy, it will show that it deleted 2 resources.
+
