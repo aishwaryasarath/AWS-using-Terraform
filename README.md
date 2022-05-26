@@ -75,7 +75,7 @@ Confirm
 ### Variables
 [Variables-demo](02-variables)
 
-### EC2
+## 1.3 EC2
 [EC2 demo](03-ec2)
 
 [EIP demo](04-eip)
@@ -84,8 +84,12 @@ Confirm
 
 [Dynamic Blocks Demo](06-dynamic-blocks)
 
-### Modules
+## 1.4 Modules
 
 [Module-demo](07-module)
 
 [Module Outputs](08-module-outputs)
+
+## 1.5 IAM
+- Create an IAM policy on the AWS console and copy the JSON.
+- Include the json in the terraform file as shown [here](09-IAM)[09-IAM]
