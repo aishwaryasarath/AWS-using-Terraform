@@ -9,8 +9,7 @@ Demos on provisioning AWS res
 - [1.5. IAM](#15-IAM)
 - [1.6. RDS](#16-RDS)
 - [1.7. Terraform Backend](#17-Terraform-Backend)
-
-
+- [1.8. Dependencies](#18-Dependencies)
 
 ## 1.1 Terraform Setup
 1. Install Terraform & verfiy
@@ -104,3 +103,6 @@ Confirm
 
 ## 1.7 Terraform Backend
 [Backend Demo](11-backend)
+
+## 1.8 Dependencies
+[Dependencies Demo](12-dependencies)
