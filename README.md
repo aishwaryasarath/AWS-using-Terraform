@@ -8,6 +8,7 @@ Demos on provisioning AWS res
 - [1.4. Modules](#14-Modules)
 - [1.5. IAM](#15-IAM)
 - [1.6. RDS](#16-RDS)
+- [1.7. Terraform Backend](#17-Terraform-Backend)
 
 
 
@@ -100,3 +101,6 @@ Confirm
 
 ## 1.6 RDS
 [RDS Demo](10-rds)
+
+## 1.7 Terraform Backend
+[Backend Demo](11-Backend)
