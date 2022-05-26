@@ -10,6 +10,7 @@ Demos on provisioning AWS res
 - [1.6. RDS](#16-RDS)
 - [1.7. Terraform Backend](#17-Terraform-Backend)
 - [1.8. Dependencies](#18-Dependencies)
+- [1.9. Count](#19-Count)
 
 ## 1.1 Terraform Setup
 1. Install Terraform & verfiy
@@ -106,3 +107,7 @@ Confirm
 
 ## 1.8 Dependencies
 [Dependencies Demo](12-dependencies)
+
+## 1.9 Count
+[Count simple demo](13-count/simple)
+[Count Advanced demo](13-count/advanced)
