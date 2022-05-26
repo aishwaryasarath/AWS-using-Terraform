@@ -2,8 +2,8 @@
 Demos on provisioning AWS res
 
 **Table of Contents**
-- [1.1. Terraform-SetUp](#11-Terraform-Setup)
-- [1.2. Terraform-101](#12-Terraform-101)
+- [1.1. Terraform SetUp](#11-Terraform-Setup)
+- [1.2. Terraform 101](#12-Terraform-101)
 - [1.3. EC2](#13-EC2)
 - [1.4. Modules](#14-Modules)
 - [1.5. IAM](#15-IAM)
@@ -11,6 +11,7 @@ Demos on provisioning AWS res
 - [1.7. Terraform Backend](#17-Terraform-Backend)
 - [1.8. Dependencies](#18-Dependencies)
 - [1.9. Count](#19-Count)
+- [1.10 Multiple Environments using multiple variable files](#110-Multiple-environments-using-multiple-variable-files)
 
 ## 1.1 Terraform Setup
 1. Install Terraform & verfiy
@@ -107,3 +108,6 @@ Confirm
 ## 1.9 Count
 - [Count simple demo](13-count/simple)
 - [Count Advanced demo](13-count/advanced)
+
+## 1.10 Multiple Environments using multiple variable files
+-
