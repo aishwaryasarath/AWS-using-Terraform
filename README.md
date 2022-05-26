@@ -110,4 +110,8 @@ Confirm
 - [Count Advanced demo](13-count/advanced)
 
 ## 1.10 Multiple Environments using multiple variable files
--
+- [Env with varfile demo](14-multiple-env-with-varfile)
+``` 
+terraform plan -var-file=test.tfvars
+terraform plan -var-file=prod.tfvars
+```
