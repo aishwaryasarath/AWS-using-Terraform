@@ -73,16 +73,16 @@ Confirm
 - Don't delete the state file
 
 ### Variables
-[Variables-demo](02-variables/main.tf)
+[Variables-demo](02-variables)
 
 ### EC2
-[EC2 demo](03-ec2/main.tf)
+[EC2 demo](03-ec2)
 
-[EIP demo](04-eip/main.tf)
+[EIP demo](04-eip)
 
-[Security Group Demo](05-sg/main.tf)
+[Security Group Demo](05-sg)
 
-[Dynamic Blocks Demo](06-dynamic-blocks/main.tf)
+[Dynamic Blocks Demo](06-dynamic-blocks)
 
 ### Modules
 
