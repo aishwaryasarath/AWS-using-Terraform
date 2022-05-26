@@ -97,3 +97,6 @@ Confirm
 ## 1.5 IAM
 - Create an IAM policy on the AWS console and copy the JSON.
 - Include the json in the terraform file as shown [here](09-IAM)[09-IAM]
+
+## 1.6 RDS
+[RDS Demo](10-rds)
