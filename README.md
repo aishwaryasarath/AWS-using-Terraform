@@ -4,6 +4,10 @@ Demos on provisioning AWS res
 **Table of Contents**
 - [1.1. Terraform-SetUp](#11-Terraform-Setup)
 - [1.2. Terraform-101](#12-Terraform-101)
+- [1.3. EC2](#13-EC2)
+- [1.4. Modules](#14-Modules)
+- [1.5. IAM](#15-IAM)
+- [1.6. RDS](#13-RDS)
 
 
 
