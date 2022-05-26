@@ -96,13 +96,13 @@ Confirm
 - Include the json in the terraform file as shown [here](09-IAM)[09-IAM]
 
 ## 1.6 RDS
-[RDS Demo](10-rds)
+- [RDS Demo](10-rds)
 
 ## 1.7 Terraform Backend
-[Backend Demo](11-backend)
+- [Backend Demo](11-backend)
 
 ## 1.8 Dependencies
-[Dependencies Demo](12-dependencies)
+- [Dependencies Demo](12-dependencies)
 
 ## 1.9 Count
 - [Count simple demo](13-count/simple)
